@@ -81,6 +81,4 @@ Ouvrez un terminal et lancez le projet avec la commande suivante :
 uvicorn main:api --reload
 ```
 
-## 🌐 Déploiment sur render.com
-J'y ai perdu trop d'heures, bon courage à vous  
-![](https://i.ytimg.com/vi/fFMWvF3mbzE/mqdefault.jpg)
+
