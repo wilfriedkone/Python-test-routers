@@ -8,6 +8,10 @@ on:
   #  branches:
   #    - main 
   workflow_dispatch
+env:
+  FIREBASE_SERVICE_ACCOUNT_KEY: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_KEY }}
+  FIREBASE_CONFIG: ${{ secrets.FIREBASE_CONFIG }}
+  STRIPE_CONFIG: ${{ secrets.STRIPE_CONFIG }}
 jobs:
      tests:
        runs-on: ubuntu-latest
